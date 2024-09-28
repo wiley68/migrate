@@ -4,6 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+/** guest routes */
 Route::get('/', function () {
     return view('welcome');
 });
